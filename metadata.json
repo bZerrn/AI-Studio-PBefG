@@ -1,0 +1,6 @@
+{
+  "name": "PBefG Compliance Auditor",
+  "description": "Lokales Web-Audit-Werkzeug zur PBefG-konformen Prüfung und Rekonstruktion von Mietwagen-Fahrtenbüchern.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

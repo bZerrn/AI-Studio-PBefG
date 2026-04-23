@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Georgia:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-bg-app: #0C0D0E;
+  --color-surface: #161719;
+  --color-surface-bright: #1E2023;
+  --color-accent: #D4AF37;
+  --color-text-main: #E1E1E1;
+  --color-text-dim: #8E9299;
+  --color-danger: #FF4D4D;
+  --color-success: #2ECC71;
+  --color-warning: #F39C12;
+
+  --font-serif: Georgia, serif;
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: var(--color-bg-app);
+  color: var(--color-text-main);
+  font-family: var(--font-sans);
+}
